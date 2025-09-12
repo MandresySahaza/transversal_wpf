@@ -1,0 +1,17 @@
+﻿<Application x:Class="RoadWatchMada.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:RoadWatchMada"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         <SolidColorBrush x:Key="PrimaryColor" Color="White"/>
+        <SolidColorBrush x:Key="SecondaryColor" Color="#FF368288"/>
+        <SolidColorBrush x:Key="AccentColor" Color="#FF368288"/>
+        
+        <Style x:Key="MainWindowStyle" TargetType="Window">
+            <Setter Property="Background" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+        </Style>
+    </Application.Resources>
+</Application>

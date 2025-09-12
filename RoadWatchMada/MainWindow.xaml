@@ -1,0 +1,191 @@
+﻿<Window x:Class="RoadWatchMada.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="RoadWatchMada" 
+        Height="800" 
+        Width="1200"
+        WindowStartupLocation="CenterScreen"
+        Style="{StaticResource MainWindowStyle}">
+
+    <Window.Resources>
+        <!-- Styles pour les titres inspirés du mobile -->
+        <Style x:Key="TitleStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="28"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="20,10"/>
+        </Style>
+
+        <!-- Style pour les boutons du menu -->
+        <Style x:Key="MenuButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="BorderBrush" Value="{StaticResource SecondaryColor}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="20,10"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Medium"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="{StaticResource SecondaryColor}"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- Style amélioré pour l'Expander du menu -->
+        <Style x:Key="MenuExpanderStyle" TargetType="Expander">
+            <Setter Property="Background" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="BorderBrush" Value="{StaticResource SecondaryColor}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="15,12"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="IsExpanded" Value="False"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="{StaticResource SecondaryColor}"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+                <Trigger Property="IsExpanded" Value="True">
+                    <Setter Property="Background" Value="{StaticResource SecondaryColor}"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- Style amélioré pour les sous-boutons -->
+        <Style x:Key="SubMenuButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="15,10"/>
+            <Setter Property="Margin" Value="2,3"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="{StaticResource SecondaryColor}"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <DockPanel>
+        <!-- En-tête avec logo et titre -->
+        <Border DockPanel.Dock="Top" 
+        Background="{StaticResource SecondaryColor}" 
+        Height="80">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                <!-- Titre RoadWatchMada avec style personnalisé -->
+                <TextBlock FontSize="32" FontWeight="Bold" VerticalAlignment="Center">
+            <!-- R en blanc sur fond noir -->
+            <Run Text="R" 
+                 Background="Black"
+                 Foreground="White"
+                 FontWeight="ExtraBold"/>
+            
+            <!-- "oad" en noir -->
+            <Run Text="oad"
+                 Foreground="#FF212121"
+                 FontWeight="SemiBold"/>
+            
+            <!-- W en rouge -->
+            <Run Text="W" 
+                 Foreground="#FFD32F2F"
+                 FontWeight="ExtraBold"/>
+            
+            <!-- "atch" en noir -->
+            <Run Text="atch"
+                 Foreground="#FF212121"
+                 FontWeight="SemiBold"/>
+            
+            <!-- M en vert -->
+            <Run Text="M" 
+                 Foreground="#FF388E3C"
+                 FontWeight="ExtraBold"/>
+            
+            <!-- "ada" en noir -->
+            <Run Text="ada"
+                 Foreground="#FF212121"
+                 FontWeight="SemiBold"/>
+                </TextBlock>
+            </StackPanel>
+        </Border>
+
+        <!-- Menu latéral -->
+        <Border DockPanel.Dock="Left" Width="300"  Background="#FFF5F5F5" 
+        BorderBrush="{StaticResource SecondaryColor}"
+        BorderThickness="0,0,1,0">
+
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel Margin="15">
+                    <!-- Titre court et centré -->
+                    <TextBlock Text="MENU" 
+                      Foreground="{StaticResource SecondaryColor}"
+                      FontSize="20"
+                      FontWeight="Bold"
+                      Margin="0,0,0,20"
+                      HorizontalAlignment="Center"
+                      TextAlignment="Center"/>
+
+                    <!-- Options de menu principales -->
+                    <Button Content="Validation Signalement" 
+                   Style="{StaticResource MenuButtonStyle}"
+                   ToolTip="Valider les signalements reçus"/>
+
+                    <Button Content="Gestion Utilisateur" 
+                   Style="{StaticResource MenuButtonStyle}"
+                   ToolTip="Gérer les utilisateurs du système"/>
+
+                    <!-- Menu Paramétrage avec largeur adaptée -->
+                    <Expander Header="Paramétrage Divers" 
+                     Style="{StaticResource MenuExpanderStyle}"
+                     Margin="0,10,0,0">
+                        <StackPanel Margin="10,5">
+                            <Button Content="Catégorie de Signal" 
+                           Style="{StaticResource SubMenuButtonStyle}"
+                           ToolTip="Gérer les catégories de signalement"/>
+                            <Button Content="Type de Signal" 
+                           Style="{StaticResource SubMenuButtonStyle}"
+                           ToolTip="Gérer les types de signalement"/>
+                            <Button Content="Route" 
+                           Style="{StaticResource SubMenuButtonStyle}"
+                           ToolTip="Gérer les routes"/>
+                            <Button Content="Ville" 
+                           Style="{StaticResource SubMenuButtonStyle}"
+                           ToolTip="Gérer les villes"/>
+                            <Button Content="Quartier" 
+                           Style="{StaticResource SubMenuButtonStyle}"
+                           ToolTip="Gérer les quartiers"/>
+                            <Button Content="Badge" 
+                           Style="{StaticResource SubMenuButtonStyle}"
+                           ToolTip="Gérer les badges utilisateur"/>
+                        </StackPanel>
+                    </Expander>
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+
+        <!-- Zone de contenu principale -->
+        <Border Background="White">
+            <Grid>
+                <TextBlock Text="Bienvenue sur RoadWatchMada" 
+                          HorizontalAlignment="Center"
+                          VerticalAlignment="Center"
+                          FontSize="24"
+                          Foreground="{StaticResource SecondaryColor}"
+                          FontWeight="Light"/>
+            </Grid>
+        </Border>
+    </DockPanel>
+</Window>
