@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E6F8C593-A045-464B-9F0D-E6F78272A3F2}|RoadWatchMada.csproj|y:\\itu\\m1\\s8\\projet_transversal\\transversal_wpf\\roadwatchmada\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E6F8C593-A045-464B-9F0D-E6F78272A3F2}|RoadWatchMada.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6F8C593-A045-464B-9F0D-E6F78272A3F2}|RoadWatchMada.csproj|y:\\itu\\m1\\s8\\projet_transversal\\transversal_wpf\\roadwatchmada\\roadwatchmada.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E6F8C593-A045-464B-9F0D-E6F78272A3F2}|RoadWatchMada.csproj|solutionrelative:roadwatchmada.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6F8C593-A045-464B-9F0D-E6F78272A3F2}|RoadWatchMada.csproj|y:\\itu\\m1\\s8\\projet_transversal\\transversal_wpf\\roadwatchmada\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6F8C593-A045-464B-9F0D-E6F78272A3F2}|RoadWatchMada.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6F8C593-A045-464B-9F0D-E6F78272A3F2}|RoadWatchMada.csproj|y:\\itu\\m1\\s8\\projet_transversal\\transversal_wpf\\roadwatchmada\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E6F8C593-A045-464B-9F0D-E6F78272A3F2}|RoadWatchMada.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoadWatchMada",
+              "DocumentMoniker": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\RoadWatchMada.csproj",
+              "RelativeDocumentMoniker": "RoadWatchMada.csproj",
+              "ToolTip": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\RoadWatchMada.csproj",
+              "RelativeToolTip": "RoadWatchMada.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-12T07:54:17.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-12T07:55:54.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-12T07:55:52.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T07:43:39.154Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
