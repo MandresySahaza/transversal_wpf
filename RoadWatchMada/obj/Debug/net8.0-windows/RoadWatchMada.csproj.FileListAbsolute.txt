@@ -26,3 +26,13 @@ Y:\ITU\M1\S8\Projet_transversal\transversal_wpf\RoadWatchMada\obj\Debug\net8.0-w
 Y:\ITU\M1\S8\Projet_transversal\transversal_wpf\RoadWatchMada\obj\Debug\net8.0-windows\CategorieSignalView.g.cs
 Y:\ITU\M1\S8\Projet_transversal\transversal_wpf\RoadWatchMada\obj\Debug\net8.0-windows\TypeSignalView.baml
 Y:\ITU\M1\S8\Projet_transversal\transversal_wpf\RoadWatchMada\obj\Debug\net8.0-windows\TypeSignalView.g.cs
+Y:\ITU\M1\S8\Projet_transversal\transversal_wpf\RoadWatchMada\obj\Debug\net8.0-windows\RouteView.baml
+Y:\ITU\M1\S8\Projet_transversal\transversal_wpf\RoadWatchMada\obj\Debug\net8.0-windows\RouteView.g.cs
+Y:\ITU\M1\S8\Projet_transversal\transversal_wpf\RoadWatchMada\obj\Debug\net8.0-windows\VilleView.baml
+Y:\ITU\M1\S8\Projet_transversal\transversal_wpf\RoadWatchMada\obj\Debug\net8.0-windows\VilleView.g.cs
+Y:\ITU\M1\S8\Projet_transversal\transversal_wpf\RoadWatchMada\obj\Debug\net8.0-windows\QuartierView.g.cs
+Y:\ITU\M1\S8\Projet_transversal\transversal_wpf\RoadWatchMada\obj\Debug\net8.0-windows\QuartierView.baml
+Y:\ITU\M1\S8\Projet_transversal\transversal_wpf\RoadWatchMada\obj\Debug\net8.0-windows\BadgeView.baml
+Y:\ITU\M1\S8\Projet_transversal\transversal_wpf\RoadWatchMada\obj\Debug\net8.0-windows\BadgeView.g.cs
+Y:\ITU\M1\S8\Projet_transversal\transversal_wpf\RoadWatchMada\obj\Debug\net8.0-windows\ValidationSignalementView.g.cs
+Y:\ITU\M1\S8\Projet_transversal\transversal_wpf\RoadWatchMada\obj\Debug\net8.0-windows\ValidationSignalementView.baml

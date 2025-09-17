@@ -1,0 +1,146 @@
+﻿<UserControl x:Class="RoadWatchMada.VilleView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800">
+
+    <UserControl.Resources>
+        <Style x:Key="TitreStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="{StaticResource SecondaryColor}"/>
+            <Setter Property="Margin" Value="20,10,20,20"/>
+        </Style>
+
+        <Style x:Key="BoutonActionStyle" TargetType="Button">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="MinWidth" Value="80"/>
+        </Style>
+
+        <Style x:Key="FiltreLabelStyle" TargetType="TextBlock">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="0,0,5,0"/>
+            <Setter Property="FontWeight" Value="Medium"/>
+        </Style>
+
+        <Style x:Key="FiltreTextBoxStyle" TargetType="TextBox">
+            <Setter Property="Margin" Value="0,0,10,0"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="MinWidth" Value="300"/>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid>
+        <StackPanel>
+            <!-- Titre de l'écran -->
+            <Grid Margin="20,10,20,20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="Gestion des Villes" 
+                    Style="{StaticResource TitreStyle}" 
+                    Margin="0"/>
+
+            <Button Content="AJOUTER" 
+                    Grid.Column="1"
+                    Style="{StaticResource BoutonActionStyle}"
+                    Background="#063879" 
+                    Foreground="White"
+                    HorizontalAlignment="Right"/>
+            </Grid>
+
+            <!-- Formulaire de filtres -->
+            <Border Background="#FFF8F8F8" 
+                    BorderBrush="#FFE0E0E0" 
+                    BorderThickness="0,0,0,1"
+                    Padding="20,15"
+                    Margin="20,0,20,20">
+                <StackPanel>
+                    <TextBlock Text="Filtres de recherche" 
+                              FontWeight="Bold" 
+                              Margin="0,0,0,10"
+                              Foreground="{StaticResource SecondaryColor}"/>
+
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Nom:" Style="{StaticResource FiltreLabelStyle}" Width="80"/>
+                        <TextBox x:Name="txtFiltreNom" 
+                                Style="{StaticResource FiltreTextBoxStyle}"/>
+
+                        <Button Content="Réinitialiser" 
+                               Style="{StaticResource BoutonActionStyle}"
+                               Background="#FF9E9E9E"
+                               Foreground="White"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <!-- Tableau des villes -->
+            <DataGrid x:Name="dgVilles" 
+                     AutoGenerateColumns="False"
+                     Margin="20,0,20,20"
+                     IsReadOnly="True"
+                     HeadersVisibility="Column"
+                     SelectionMode="Single"
+                     CanUserAddRows="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="80"/>
+                    <DataGridTextColumn Header="Nom de la Ville" Binding="{Binding Nom}" Width="565"/>
+
+                    <DataGridTemplateColumn Header="Actions" Width="200">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <Button Content="Modifier" 
+                                           Style="{StaticResource BoutonActionStyle}"
+                                           Background="#FF4CAF50"
+                                           Foreground="White"/>
+                                    <Button Content="Supprimer" 
+                                           Style="{StaticResource BoutonActionStyle}"
+                                           Background="#FFF44336"
+                                           Foreground="White"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <!-- Pagination -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
+                <Button Content="◀◀ Premier" 
+                       Style="{StaticResource BoutonActionStyle}"/>
+                <Button Content="◀ Précédent" 
+                       Style="{StaticResource BoutonActionStyle}"/>
+
+                <TextBlock Text="Page" VerticalAlignment="Center" Margin="10,0"/>
+                <TextBox x:Name="txtPageCourante" 
+                        Width="50" 
+                        Text="1" 
+                        TextAlignment="Center"
+                        Margin="5,0"/>
+                <TextBlock Text="/" VerticalAlignment="Center" Margin="5,0"/>
+                <TextBlock x:Name="txtTotalPages" 
+                          Text="1" 
+                          VerticalAlignment="Center"
+                          Margin="0,0,10,0"/>
+
+                <TextBlock x:Name="txtTotalVilles" 
+                          Text="(0 villes)" 
+                          VerticalAlignment="Center"
+                          Margin="20,0"
+                          FontStyle="Italic"
+                          Foreground="Gray"/>
+
+                <Button Content="Suivant ▶" 
+                       Style="{StaticResource BoutonActionStyle}"/>
+                <Button Content="Dernier ▶▶" 
+                       Style="{StaticResource BoutonActionStyle}"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>
