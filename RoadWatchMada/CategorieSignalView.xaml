@@ -36,7 +36,23 @@
     <Grid>
         <StackPanel>
             <!-- Titre de l'écran -->
-            <TextBlock Text="Gestion des Catégories de Signal" Style="{StaticResource TitreStyle}"/>
+            <Grid Margin="20,10,20,20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="Gestion des Catégories de Signal" 
+                          Style="{StaticResource TitreStyle}" 
+                          Margin="0"/>
+
+                <Button Content="AJOUTER" 
+                       Grid.Column="1"
+                       Style="{StaticResource BoutonActionStyle}"
+                       Background="#063879" 
+                       Foreground="White"
+                       HorizontalAlignment="Right"/>
+            </Grid>
 
             <!-- Formulaire de filtres -->
             <Border Background="#FFF8F8F8" 

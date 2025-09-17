@@ -132,7 +132,7 @@ namespace RoadWatchMada {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/RoadWatchMada;V1.0.0.0;component/gestionutilisateurview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/RoadWatchMada;component/gestionutilisateurview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\GestionUtilisateurView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

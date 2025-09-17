@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6F8C593-A045-464B-9F0D-E6F78272A3F2}|RoadWatchMada.csproj|y:\\itu\\m1\\s8\\projet_transversal\\transversal_wpf\\roadwatchmada\\typesignalview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6F8C593-A045-464B-9F0D-E6F78272A3F2}|RoadWatchMada.csproj|solutionrelative:typesignalview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6F8C593-A045-464B-9F0D-E6F78272A3F2}|RoadWatchMada.csproj|y:\\itu\\m1\\s8\\projet_transversal\\transversal_wpf\\roadwatchmada\\validationsignalementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6F8C593-A045-464B-9F0D-E6F78272A3F2}|RoadWatchMada.csproj|solutionrelative:validationsignalementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6F8C593-A045-464B-9F0D-E6F78272A3F2}|RoadWatchMada.csproj|y:\\itu\\m1\\s8\\projet_transversal\\transversal_wpf\\roadwatchmada\\categoriesignalview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6F8C593-A045-464B-9F0D-E6F78272A3F2}|RoadWatchMada.csproj|solutionrelative:categoriesignalview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6F8C593-A045-464B-9F0D-E6F78272A3F2}|RoadWatchMada.csproj|y:\\itu\\m1\\s8\\projet_transversal\\transversal_wpf\\roadwatchmada\\typesignalview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E6F8C593-A045-464B-9F0D-E6F78272A3F2}|RoadWatchMada.csproj|solutionrelative:typesignalview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6F8C593-A045-464B-9F0D-E6F78272A3F2}|RoadWatchMada.csproj|y:\\itu\\m1\\s8\\projet_transversal\\transversal_wpf\\roadwatchmada\\models\\categoriesignal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6F8C593-A045-464B-9F0D-E6F78272A3F2}|RoadWatchMada.csproj|solutionrelative:models\\categoriesignal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6F8C593-A045-464B-9F0D-E6F78272A3F2}|RoadWatchMada.csproj|y:\\itu\\m1\\s8\\projet_transversal\\transversal_wpf\\roadwatchmada\\validationsignalementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E6F8C593-A045-464B-9F0D-E6F78272A3F2}|RoadWatchMada.csproj|solutionrelative:validationsignalementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6F8C593-A045-464B-9F0D-E6F78272A3F2}|RoadWatchMada.csproj|y:\\itu\\m1\\s8\\projet_transversal\\transversal_wpf\\roadwatchmada\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,78 +34,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategorieSignalView.xaml.cs",
-              "DocumentMoniker": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\CategorieSignalView.xaml.cs",
-              "RelativeDocumentMoniker": "CategorieSignalView.xaml.cs",
-              "ToolTip": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\CategorieSignalView.xaml.cs",
-              "RelativeToolTip": "CategorieSignalView.xaml.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T10:06:13.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TypeSignalView.xaml.cs",
-              "DocumentMoniker": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\TypeSignalView.xaml.cs",
-              "RelativeDocumentMoniker": "TypeSignalView.xaml.cs",
-              "ToolTip": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\TypeSignalView.xaml.cs",
-              "RelativeToolTip": "TypeSignalView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAACEAAAAAAAAAA==",
+              "Title": "ValidationSignalementView.xaml.cs",
+              "DocumentMoniker": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\ValidationSignalementView.xaml.cs",
+              "RelativeDocumentMoniker": "ValidationSignalementView.xaml.cs",
+              "ToolTip": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\ValidationSignalementView.xaml.cs",
+              "RelativeToolTip": "ValidationSignalementView.xaml.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T10:06:06.264Z",
+              "WhenOpened": "2025-09-17T09:08:50.911Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAADwv1oAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T10:04:02.208Z",
+              "DocumentIndex": 1,
+              "Title": "ValidationSignalementView.xaml",
+              "DocumentMoniker": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\ValidationSignalementView.xaml",
+              "RelativeDocumentMoniker": "ValidationSignalementView.xaml",
+              "ToolTip": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\ValidationSignalementView.xaml",
+              "RelativeToolTip": "ValidationSignalementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-17T09:06:37.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-12T10:01:48.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategorieSignal.cs",
-              "DocumentMoniker": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\Models\\CategorieSignal.cs",
-              "RelativeDocumentMoniker": "Models\\CategorieSignal.cs",
-              "ToolTip": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\Models\\CategorieSignal.cs",
-              "RelativeToolTip": "Models\\CategorieSignal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T09:22:55.885Z",
+              "WhenOpened": "2025-09-17T08:45:09.299Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TypeSignalView.xaml",
-              "DocumentMoniker": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\TypeSignalView.xaml",
-              "RelativeDocumentMoniker": "TypeSignalView.xaml",
-              "ToolTip": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\TypeSignalView.xaml",
-              "RelativeToolTip": "TypeSignalView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-12T10:00:30.067Z",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "Y:\\ITU\\M1\\S8\\Projet_transversal\\transversal_wpf\\RoadWatchMada\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T08:45:11.387Z",
               "EditorCaption": ""
             }
           ]
