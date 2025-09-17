@@ -168,16 +168,20 @@
                                Click="BtnTypeSignal_Click"/>
                             <Button Content="Route" 
                                    Style="{StaticResource SubMenuButtonStyle}"
-                                   ToolTip="Gérer les routes"/>
+                                   ToolTip="Gérer les routes"
+                                   Click="BtnRoute_Click"/>
                             <Button Content="Ville" 
                                    Style="{StaticResource SubMenuButtonStyle}"
-                                   ToolTip="Gérer les villes"/>
+                                   ToolTip="Gérer les villes"
+                                   Click="BtnVille_Click"/>
                             <Button Content="Quartier" 
                                    Style="{StaticResource SubMenuButtonStyle}"
-                                   ToolTip="Gérer les quartiers"/>
+                                   ToolTip="Gérer les quartiers"
+                                   Click="BtnQuartier_Click"/>
                             <Button Content="Badge" 
                                    Style="{StaticResource SubMenuButtonStyle}"
-                                   ToolTip="Gérer les badges utilisateur"/>
+                                   ToolTip="Gérer les badges"
+                                   Click="BtnBadge_Click"/>
                         </StackPanel>
                     </Expander>
                 </StackPanel>

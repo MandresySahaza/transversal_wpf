@@ -43,17 +43,7 @@ namespace RoadWatchMada
 
         private void AfficherValidationSignalement()
         {
-            // Pour l'instant, on affiche un message simple
-            var textBlock = new TextBlock
-            {
-                Text = "Écran de Validation Signalement",
-                HorizontalAlignment = HorizontalAlignment.Center,
-                VerticalAlignment = VerticalAlignment.Center,
-                FontSize = 24,
-                Foreground = (System.Windows.Media.Brush)FindResource("SecondaryColor")
-            };
-
-            MainContent.Content = textBlock;
+            MainContent.Content = new ValidationSignalementView();
         }
 
         private void BtnGestionUtilisateur_Click(object sender, RoutedEventArgs e)
@@ -88,6 +78,48 @@ namespace RoadWatchMada
         private void AfficherTypeSignal()
         {
             MainContent.Content = new TypeSignalView();
+        }
+
+        private void BtnRoute_Click(object sender, RoutedEventArgs e)
+        {
+            SetActiveMenuButton((Button)sender);
+            AfficherRoute();
+        }
+
+        private void AfficherRoute()
+        {
+            MainContent.Content = new RouteView();
+        }
+        private void BtnVille_Click(object sender, RoutedEventArgs e)
+        {
+            SetActiveMenuButton((Button)sender);
+            AfficherVille();
+        }
+
+        private void AfficherVille()
+        {
+            MainContent.Content = new VilleView();
+        }
+        private void BtnQuartier_Click(object sender, RoutedEventArgs e)
+        {
+            SetActiveMenuButton((Button)sender);
+            AfficherQuartier();
+        }
+
+        private void AfficherQuartier()
+        {
+            MainContent.Content = new QuartierView();
+        }
+
+        private void BtnBadge_Click(object sender, RoutedEventArgs e)
+        {
+            SetActiveMenuButton((Button)sender);
+            AfficherBadge();
+        }
+
+        private void AfficherBadge()
+        {
+            MainContent.Content = new BadgeView();
         }
     }
 }
